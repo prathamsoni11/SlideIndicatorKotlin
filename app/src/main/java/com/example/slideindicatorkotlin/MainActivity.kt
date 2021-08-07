@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         pager2 = findViewById(R.id.view_pager2)
 
         list = IntArray(5)
-        list[0] = resources.getColor(R.color.colorPrimary)
+        list[0] = resources.getColor(R.color.purple_700)
         list[1] = resources.getColor(R.color.colorPrimary)
         list[2] = resources.getColor(R.color.darker_gray)
         list[3] = resources.getColor(R.color.teal_700)
